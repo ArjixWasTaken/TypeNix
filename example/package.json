@@ -1,0 +1,20 @@
+{
+    "name": "typenix-example",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "vite build"
+    },
+    "dependencies": {
+        "typenix": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.7",
+        "typescript": "~5.6.2",
+        "vite": "^6.0.7"
+    },
+    "peerDependencies": {
+        "vite": "^6.0.7"
+    }
+}
